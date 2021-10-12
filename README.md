@@ -1,6 +1,4 @@
-
-
-![vistaprevia](https://user-images.githubusercontent.com/68760595/136882965-9b957a2a-ae0b-40ff-8b51-00013003d326.png)
+![vista](https://user-images.githubusercontent.com/68760595/136884747-ac419e6b-6eb5-4946-b2a3-6bba25bee171.png)
 
 ## Steps:
 
