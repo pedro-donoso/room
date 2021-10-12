@@ -1,5 +1,5 @@
 const fs = require("fs");
-const agregaGasto = (body) => {
+const addGasto = (body) => {
   let verRm = JSON.parse(fs.readFileSync("roommates.json", "utf8"));
   let datosRm = verRm.roommates;
   let conteoRm = datosRm.length;
@@ -14,7 +14,7 @@ const agregaGasto = (body) => {
     fs.writeFileSync("roommates.json", JSON.stringify(verRm, null, 1));
   });
 };
-const modificaGasto = (body) => {
+const modGasto = (body) => {
   let verRm = JSON.parse(fs.readFileSync("roommates.json", "utf8"));
   let datosRm = verRm.roommates;
   let conteoRm = datosRm.length;
@@ -37,4 +37,4 @@ const modificaGasto = (body) => {
     fs.writeFileSync("roommates.json", JSON.stringify(verRm, null, 1));
   });
 };
-module.exports = { agregaGasto, modificaGasto };
+module.exports = { addGasto, modGasto };
