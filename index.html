@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="style.css">
   </head>
   <body class="p-4">
-    <h1 class="">Roommates</h1>
     <div class="row w-100 m-auto">
       <div class="col-4">
         <h5>Roommates</h5>
@@ -28,25 +27,25 @@
           <tbody class="text-white" id="roommates"></tbody>
         </table>
       </div>
-      <div class="col-4">
+      <div class="col-3">
         <div class="border rounded p-2 m-auto p-4">
-          <h4>Agregar Gasto</h4>
+          <h6>Agregar Gasto</h6>
           <div class="d-flex flex-column align-items-center">
             <h6>Roommate</h6>
-            <select class="form-control w-50 mb-2" id="roommatesSelect"></select>
+            <select class="form-control w-100 mb-2" id="roommatesSelect"></select>
             <h6>Descripción</h6>
-            <textarea class="form-control w-50 mb-2" id="descripcion">Articulos de limpieza</textarea>
+            <textarea class="form-control w-100 mb-2" id="descripcion">Articulos de limpieza</textarea>
             <h6>Monto:</h6>
-            <input class="form-control w-50 mb-2" id="monto" type="number" value="15000" />
+            <input class="form-control w-100 mb-2" id="monto" type="number" value="15000" />
           </div>
           <div class="d-block my-1">
             <button class="btn btn-sm btn-warning text-white m-auto" onclick="agregarGasto()">Agregar</button>
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-5">
         <div>
-          <h4>Historial</h4>
+          <h6>Historial</h6>
           <table class="table">
             <thead class="text-white">
               <th>Nombre</th>
@@ -64,15 +63,14 @@
         <div class="modal-content">
           <div class="modal-body">
             <div class="border rounded p-2 m-auto p-4">
-              <h4>Editar Gasto</h4>
-              <hr class="bg-light w-25 mx-auto" />
+              <h4>Detalle Gasto</h4>
               <div class="d-flex flex-column align-items-center">
                 <h6>Roommate</h6>
-                <select class="form-control w-50 mb-2" id="roommatesSelectModal"></select>
+                <select class="form-control w-100 mb-2" id="roommatesSelectModal"></select>
                 <h6>Descripción</h6>
-                <textarea class="form-control w-50 mb-2" id="descripcionModal">Articulos de limpieza</textarea>
+                <textarea class="form-control w-100 mb-2" id="descripcionModal">Articulos de limpieza</textarea>
                 <h6>Monto:</h6>
-                <input class="form-control w-50 mb-2" id="montoModal" type="number" value="20000"/>
+                <input class="form-control w-100 mb-2" id="montoModal" type="number" value="20000"/>
               </div>
             </div>
           </div>

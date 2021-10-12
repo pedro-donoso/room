@@ -42,7 +42,6 @@ const imprimir = async () => {
             <td>${g.monto}</td>
             <td class="d-flex align-items-center justify-content-between">
               <i class="fas fa-edit text-warning" onclick="editGasto('${g.id}')" data-toggle="modal" data-target="#exampleModal"></i>
-           
             </td>
           </tr>
         `);
@@ -85,21 +84,6 @@ const deleteGasto = async (id) => {
   });
   imprimir();
 };
-/*   const updateGasto = async () => {
-  const roommateSelected = $("#roommatesSelectModal").val();
-  const descripcion = $("#descripcionModal").val();
-  const monto = Number($("#montoModal").val());
-  await fetch("http://localhost:3000/gasto?id=" + gastoEditing, {
-    method: "PUT",
-    body: JSON.stringify({
-      roommate: roommateSelected,
-      descripcion,
-      monto,
-    }),
-  });
-  $("#exampleModal").modal("hide");
-  imprimir();
-}; */
 const editGasto = (id) => {
   gastoEditing = id;
   const { roommate, descripcion, monto } = gastos.find((g) => g.id == id);

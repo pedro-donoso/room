@@ -1,26 +1,20 @@
 {
  "gastos": [
   {
-   "id": "33543c",
-   "roommate": "Theo Johnson",
+   "id": "c811b0",
+   "roommate": "Samu Suomi",
    "descripcion": "Articulos de limpieza",
    "monto": 15000
   },
   {
-   "id": "143ad0",
-   "roommate": "Theo Johnson",
+   "id": "768a5e",
+   "roommate": "Samu Suomi",
    "descripcion": "Articulos de limpieza",
    "monto": 15000
   },
   {
-   "id": "e2a856",
-   "roommate": "Theo Johnson",
-   "descripcion": "Articulos de limpieza",
-   "monto": 15000
-  },
-  {
-   "id": "5cddf9",
-   "roommate": "Theo Johnson",
+   "id": "48f01d",
+   "roommate": "Samu Suomi",
    "descripcion": "Articulos de limpieza",
    "monto": 15000
   }

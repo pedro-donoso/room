@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 const url = require("url");
 const { nuevoRoommate, guardarUsuario, reset } = require("./roomate.js");
 const { send } = require("./correo");
-const { addGasto, modGasto, actualizarGastoRommie } = require("./calculos");
+const { addGasto, modGasto } = require("./calculos");
 http
   .createServer((req, res) => {
     if (req.url == "/" && req.method == "GET") {

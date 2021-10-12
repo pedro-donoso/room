@@ -1,25 +1,32 @@
 {
  "roommates": [
   {
-   "id": "076671",
-   "nombre": "Theo Johnson",
-   "debe": 0,
-   "recibe": 20000,
-   "correo": "theo.johnson@example.com"
+   "id": "aa4825",
+   "nombre": "Samu Suomi",
+   "debe": 7500,
+   "recibe": 33750,
+   "correo": "samu.suomi@example.com"
   },
   {
-   "id": "7148b9",
-   "nombre": "Jackson Johnson",
-   "debe": 20000,
-   "recibe": 0,
-   "correo": "jackson.johnson@example.com"
+   "id": "9909f2",
+   "nombre": "Bently Brown",
+   "debe": 18750,
+   "recibe": 7500,
+   "correo": "bently.brown@example.com"
   },
   {
-   "id": "87cef8",
-   "nombre": "Finn Wilson",
-   "debe": 20000,
+   "id": "b7efe0",
+   "nombre": "Meral Tunçeri",
+   "debe": 18750,
    "recibe": 0,
-   "correo": "finn.wilson@example.com"
+   "correo": "meral.tunceri@example.com"
+  },
+  {
+   "id": "3d9957",
+   "nombre": "Jill Gautier",
+   "debe": 3750,
+   "recibe": 0,
+   "correo": "jill.gautier@example.com"
   }
  ]
 }
