@@ -1,32 +1,26 @@
 {
  "gastos": [
   {
-   "id": "ef9856",
-   "roommate": "Ceylan Taşçı",
+   "id": "33543c",
+   "roommate": "Theo Johnson",
    "descripcion": "Articulos de limpieza",
    "monto": 15000
   },
   {
-   "id": "6a5c25",
-   "roommate": "Ceylan Taşçı",
+   "id": "143ad0",
+   "roommate": "Theo Johnson",
    "descripcion": "Articulos de limpieza",
    "monto": 15000
   },
   {
-   "id": "f6fc54",
-   "roommate": "Olivia Saarinen",
-   "descripcion": "Articulos de limpieza2",
-   "monto": 15
-  },
-  {
-   "id": "19f035",
-   "roommate": "Ceylan Taşçı",
+   "id": "e2a856",
+   "roommate": "Theo Johnson",
    "descripcion": "Articulos de limpieza",
    "monto": 15000
   },
   {
-   "id": "d9cfaf",
-   "roommate": "Ceylan Taşçı",
+   "id": "5cddf9",
+   "roommate": "Theo Johnson",
    "descripcion": "Articulos de limpieza",
    "monto": 15000
   }

@@ -1,25 +1,25 @@
 {
  "roommates": [
   {
-   "id": "cfc9ba",
-   "nombre": "Ceylan Taşçı",
-   "debe": 5,
-   "recibe": 30000,
-   "correo": "ceylan.tasci@example.com"
+   "id": "076671",
+   "nombre": "Theo Johnson",
+   "debe": 0,
+   "recibe": 20000,
+   "correo": "theo.johnson@example.com"
   },
   {
-   "id": "a4083e",
-   "nombre": "Olivia Saarinen",
-   "debe": 30000,
-   "recibe": 5,
-   "correo": "olivia.saarinen@example.com"
-  },
-  {
-   "id": "3bf174",
-   "nombre": "Alba Lefevre",
-   "debe": 30005,
+   "id": "7148b9",
+   "nombre": "Jackson Johnson",
+   "debe": 20000,
    "recibe": 0,
-   "correo": "alba.lefevre@example.com"
+   "correo": "jackson.johnson@example.com"
+  },
+  {
+   "id": "87cef8",
+   "nombre": "Finn Wilson",
+   "debe": 20000,
+   "recibe": 0,
+   "correo": "finn.wilson@example.com"
   }
  ]
 }

@@ -15,11 +15,10 @@
   </head>
   <body class="p-4">
     <h1 class="">Roommates</h1>
-    <hr class="mb-5 bg-light w-25 mx-auto" />
     <div class="row w-100 m-auto">
       <div class="col-4">
         <h5>Roommates</h5>
-        <button class="btn text-white mb-2" onclick="nuevoRoommate()">Agregar roommate</button>
+        <button class="btn btn-sm btn-success text-white mb-2" onclick="nuevoRoommate()">Agregar roommate</button>
         <table class="table">
           <thead class="text-white">
             <th>Nombre</th>
@@ -32,7 +31,6 @@
       <div class="col-4">
         <div class="border rounded p-2 m-auto p-4">
           <h4>Agregar Gasto</h4>
-          <hr class="bg-light w-25 mx-auto" />
           <div class="d-flex flex-column align-items-center">
             <h6>Roommate</h6>
             <select class="form-control w-50 mb-2" id="roommatesSelect"></select>
@@ -42,14 +40,13 @@
             <input class="form-control w-50 mb-2" id="monto" type="number" value="15000" />
           </div>
           <div class="d-block my-1">
-            <button class="btn text-white m-auto" onclick="agregarGasto()">Agregar</button>
+            <button class="btn btn-sm btn-warning text-white m-auto" onclick="agregarGasto()">Agregar</button>
           </div>
         </div>
       </div>
       <div class="col-4">
         <div>
           <h4>Historial</h4>
-          <hr class="bg-light w-25 mx-auto" />
           <table class="table">
             <thead class="text-white">
               <th>Nombre</th>
