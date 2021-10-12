@@ -1,32 +1,3 @@
 {
- "roommates": [
-  {
-   "id": "aa4825",
-   "nombre": "Samu Suomi",
-   "debe": 7500,
-   "recibe": 33750,
-   "correo": "samu.suomi@example.com"
-  },
-  {
-   "id": "9909f2",
-   "nombre": "Bently Brown",
-   "debe": 18750,
-   "recibe": 7500,
-   "correo": "bently.brown@example.com"
-  },
-  {
-   "id": "b7efe0",
-   "nombre": "Meral Tunçeri",
-   "debe": 18750,
-   "recibe": 0,
-   "correo": "meral.tunceri@example.com"
-  },
-  {
-   "id": "3d9957",
-   "nombre": "Jill Gautier",
-   "debe": 3750,
-   "recibe": 0,
-   "correo": "jill.gautier@example.com"
-  }
- ]
+ "roommates": []
 }

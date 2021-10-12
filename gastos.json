@@ -1,22 +1,3 @@
 {
- "gastos": [
-  {
-   "id": "c811b0",
-   "roommate": "Samu Suomi",
-   "descripcion": "Articulos de limpieza",
-   "monto": 15000
-  },
-  {
-   "id": "768a5e",
-   "roommate": "Samu Suomi",
-   "descripcion": "Articulos de limpieza",
-   "monto": 15000
-  },
-  {
-   "id": "48f01d",
-   "roommate": "Samu Suomi",
-   "descripcion": "Articulos de limpieza",
-   "monto": 15000
-  }
- ]
+ "gastos": []
 }
