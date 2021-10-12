@@ -21,4 +21,7 @@ Mail:
 
 **Install extension Allow CORS in Chrome or similar**
 
+![CORS](https://user-images.githubusercontent.com/68760595/136885579-0a28f15e-1f7b-4cd8-b5c3-618248bdab1e.png)
+
+
 
